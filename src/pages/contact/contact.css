@@ -1,0 +1,154 @@
+.container {
+  margin-top: 20px;
+}
+
+.singup {
+  color: #DB4444;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+}
+.textarea{
+  resize: both;
+}
+.card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 550px;
+  flex-direction: column;
+  gap: 35px;
+  border-radius: 15px;
+  background: #e3e3e3;
+  box-shadow: 16px 16px 32px #c8c8c8,
+    -16px -16px 32px #fefefe;
+  border-radius: 8px;
+}
+.sim{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.ink{
+  padding: 60px !important;
+  width: 100% !important;
+}
+
+@media(max-width:667px) {
+  .card4 {
+    width: 100%;
+  }
+  .sim{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px  !important;
+  }
+}
+
+.inputBox,
+.inputBox1,
+.inputBox2 {
+  position: relative;
+  width: 300px;
+}
+
+.inputBox input,
+.inputBox1 input,
+.inputBox2 input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: #000;
+  font-size: 1em;
+  background: transparent;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transition: 0.1s;
+  border-bottom-left-radius: 8px;
+}
+
+.inputBox span,
+.inputBox1 span,
+.inputBox2 span {
+  margin-top: 5px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-4px);
+  margin-left: 10px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 12px;
+  color: #DB4444;
+
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 3px;
+  border-radius: 8px;
+}
+
+.inputBox input:valid~span,
+.inputBox input:focus~span {
+  transform: translateX(200px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #000;
+  letter-spacing: 0.2em;
+  color: #fff;
+  border: 2px;
+}
+
+.inputBox1 input:valid~span,
+.inputBox1 input:focus~span {
+  transform: translateX(236px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #000;
+  letter-spacing: 0.2em;
+  color: #fff;
+  border: 2px;
+}
+.inputBox2 input:valid~span,
+.inputBox2 input:focus~span {
+  transform: translateX(136px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #000;
+  letter-spacing: 0.2em;
+  color: #fff;
+  border: 2px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus,
+.inputBox1 input:valid,
+.inputBox1 input:focus {
+  border: 2px solid #000;
+  border-radius: 8px;
+  border: 2px solid #3182CE;
+
+}
+
+.enter {
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 3em;
+  color: #DB4444;
+}
+
+.enter:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}

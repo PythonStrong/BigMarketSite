@@ -1,0 +1,60 @@
+{
+    "for_slide": [
+        {
+            "id": 1,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjvsPSp93K-GsvgrQVVurkyznrWnYddndFgj2jV8SJafEUCRKBoPK_YdhbL88yxXXRz7s&usqp=CAU",
+            "name": "Samsung s23 ultra",
+            "price": 120,
+            "quantity": 160
+        },
+        {
+            "id": 2,
+            "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/b/r/f/-original-imaghkvuhzwge3za.jpeg?q=90",
+            "name": "Redmi Note 12pro",
+            "price": 960,
+            "quantity": 1160
+        },
+        {
+            "id": 3,
+            "img": "https://univershop.uz/wp-content/uploads/2022/07/5pro.jpg",
+            "name": "Black Shark 5 pro",
+            "price": 370,
+            "quantity": 400
+        },
+        {
+            "id": 4,
+            "img": "https://img.mobgsm.com/uploads/xiaomi-mi-mix-alpha.webp",
+            "name": "Mi Mix Alpha ",
+            "price": 375,
+            "quantity": 400
+        },
+        {
+            "id": 5,
+            "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/u/m/b/-original-imagrdefbw6bhbjr.jpeg?q=90",
+            "name": "Nothing Phone 2",
+            "price": 960,
+            "quantity": 1160
+        },
+        {
+            "id": 6,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBg-OIPp1TiBBRng9PfnrfA5mTohApsgnttA&usqp=CAU",
+            "name": "Google Pixel 6",
+            "price": 375,
+            "quantity": 400
+        },
+        {
+            "id": 7,
+            "img": "https://m.media-amazon.com/images/I/61cnu4GxxbL._AC_UF1000,1000_QL80_.jpg",
+            "name": "Red Magic 8pro",
+            "price": 260,
+            "quantity": 360
+        },
+        {
+            "id": 7,
+            "img": "https://m.media-amazon.com/images/I/81NDDPNpt4L._AC_UF894,1000_QL80_.jpg",
+            "name": "Iphone 15pro Max",
+            "price": 260,
+            "quantity": 360
+        }
+    ]
+}

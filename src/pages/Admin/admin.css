@@ -1,0 +1,15 @@
+.boom{
+  transform: translateY(-200px) !important;
+}
+.boom2{
+  transform: translateY(-150px) !important;
+}
+.part{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  gap: 50px;
+}
+

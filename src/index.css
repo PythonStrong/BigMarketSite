@@ -1,0 +1,274 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+*::-webkit-scrollbar{
+  display: none;
+}
+
+.sw {
+  margin-top: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: #DB4444;
+}
+
+.text {
+  transition: 0.3s;
+}
+
+.text:hover {
+  transform: translateY(-8px);
+  color: #DB4444;
+}
+
+.card {
+  transition: all 0.3s ease;
+  border-radius: 6px;
+
+}
+
+.card:hover,
+.card .icon:hover {
+  background: #DB4444;
+  color: white;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-20px)
+}
+
+
+
+
+.image {
+  transition: 0.5s ease-in-out;
+}
+
+.image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  filter: blur(2px);
+}
+
+.swip img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.9s ease-in;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 201px;
+  padding: 20px;
+  height: 151px;
+  transition: all 0.5s ease;
+
+}
+
+.swiper-slide .rotate:hover {
+  transform: scale(1.25) rotate(2deg);
+}
+
+.wait {
+  border-radius: 4px;
+  background-color: #3d405b;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+.wait span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.wait span:after {
+  content: '🡺';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -50px;
+  transition: 0.5s;
+}
+
+.wait:hover span {
+  padding-right: 20px;
+}
+
+
+.textarea {
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.wait:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.swiper-slide:hover {
+  .wait {
+    display: block;
+    position: absolute;
+    transform: translateX(-32px);
+  }
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #0D1117;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.swip {
+  position: relative;
+  z-index: -100000000;
+  background: transparent;
+
+}
+
+
+.value {
+  background-color: transparent;
+  position: relative;
+  border: none;
+  padding: 10px;
+  color: white;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.value:not(:active):hover,
+.value:focus {
+  background-color: #21262C;
+}
+
+.value:focus,
+.value:active {
+  background-color: #1A1F24;
+  outline: none;
+}
+
+.value::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  width: 5px;
+  height: 80%;
+  background-color: #2F81F7;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+.value:focus::before,
+.value:active::before {
+  opacity: 1;
+}
+
+.value svg {
+  width: 15px
+}
+
+.input:hover> :not(.value:hover) {
+  transition: 300ms;
+  filter: blur(1px);
+  transform: scale(0.95, 0.95);
+}
+
+.size:hover {
+  background: #DB4444 !important;
+  color: white;
+}
+
+.trash {
+  transition: all 0.6s ease;
+}
+
+.trash:hover {
+  background: #DB4444;
+  color: white;
+}
+
+.rot:hover {
+  transform: rotate(90deg);
+}
+
+.rot {
+  transition: all .3s ease;
+}
+
+
